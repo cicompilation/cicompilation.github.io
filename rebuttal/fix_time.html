@@ -1,0 +1,71 @@
+<h3>Fix Time of Common Compiler Error Types Under Different Threshold</h3>
+
+
+<table border="5px">
+  <thead>
+    <tr>
+      <th style="text-align: left">&nbsp;</th>
+      <th style="text-align: center">expected</th>
+      <th style="text-align: center">doesnt.exist</th>
+      <th style="text-align: center">cant.resolve</th>
+      <th style="text-align: center">incompatible.types</th>
+      <th style="text-align: center">illegal.start</th>
+      <th style="text-align: center">cant.apply.symbols</th>
+      <th style="text-align: center">cant.apply.symbol</th>
+      <th style="text-align: center">duplicate.class</th>
+      <th style="text-align: center">method.does.not.override.superclass</th>
+      <th style="text-align: center">does.not.override.abstract</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">&le;12h</td>
+      <td style="text-align: center">18</td>
+      <td style="text-align: center">24</td>
+      <td style="text-align: center">27</td>
+      <td style="text-align: center">28</td>
+      <td style="text-align: center">29</td>
+      <td style="text-align: center">32</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">58</td>
+      <td style="text-align: center">74</td>
+      <td style="text-align: center">97</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">&le;9h</td>
+      <td style="text-align: center">17</td>
+      <td style="text-align: center">23</td>
+      <td style="text-align: center" bgcolor="red">26</td>
+      <td style="text-align: center">24</td>
+      <td style="text-align: center">26</td>
+      <td style="text-align: center">31</td>
+      <td style="text-align: center">31</td>
+      <td style="text-align: center">49</td>
+      <td style="text-align: center">74</td>
+      <td style="text-align: center">93</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">&le;6h</td>
+      <td style="text-align: center">17</td>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">24</td>
+      <td style="text-align: center">24</td>
+      <td style="text-align: center">26</td>
+      <td style="text-align: center" bgcolor="red">24</td>
+      <td style="text-align: center">29</td>
+      <td style="text-align: center">46</td>
+      <td style="text-align: center" bgcolor="red">35</td>
+      <td style="text-align: center">89</td>
+    </tr>
+  </tbody>
+</table><br>
+
+Note that the cell highlighted in red indicates the ranking difference; under 9-hour threshold;
+e.g., the fix time of cant.resolve is longer than the fix time of incompatible.types, 
+which is different under the 12-hour threshold. <br><br>
+
+Specifically, comparing 12-hour threshold with 9-hour threshold, 
+we find that the fix time of most error types has no significant difference. 
+Comparing 12-hour threshold with 6-hour threshold, 
+we find that the only significant difference is the fix time of method.does.not.override.superclass, decreased from 74 minites to 35 minites. 
+We will add this sensitivity analysis in the paper. 

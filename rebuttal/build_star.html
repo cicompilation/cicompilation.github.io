@@ -1,0 +1,98 @@
+<img src="../fig/project_distribution_compile_ratio.jpg" height="500"/><br>
+After removing the 791 projects that had less than 20 broken builds, 
+the number of projects with no compiler errors decreased from 960 to 603, 
+and the number of projects with (5%, 10%]/(10%, 15%] of broken builds caused by compiler errors decreased from 652/475 to 551/398. 
+We will revise the data analysis in Section 4.2 accordingly.<br><br>
+
+
+<!-- img src="../fig/median_10.jpg" /-->
+<img src="../fig/median_20.jpg" height="500"/><br>
+After removing the 791 projects that had less than 20 broken builds, 
+the projects whose ratio was between 0% and 20% had a larger median number of builds and stars (588 and 177) than the projects whose ratio was 0% (218 and 104) and than the projects whose ratio was between 20% and 100% (487.5 and 139). 
+Thus, the original results still hold, i.e., popular and frequently-built projects have a relatively low ratio of broken builds
+caused by compiler errors, and the differences are statistically significant (p = 2.89E-05 and 3.09E-05 in one-way ANOVA test). 
+We will revise the data analysis in Section 4.2 accordingly.<br><br>
+
+<!-- img src="../fig/median_30.jpg" /-->
+
+<img src="../fig/average_20.jpg" height="500"/>
+<table border="5px">
+  <tbody>
+    <tr>
+      <td style="text-align: left">Ratio of Broken Builds Caused by Compiler Errors</td>
+      <td style="text-align: center">0</td>
+<td style="text-align: center">(0, 5]</td>
+<td style="text-align: center">(5, 10]</td>
+<td style="text-align: center">(10, 15]</td>
+<td style="text-align: center">(15, 20]</td>
+<td style="text-align: center">(20, 25]</td>
+<td style="text-align: center">(25, 30]</td>
+<td style="text-align: center">(30, 35]</td>
+<td style="text-align: center">(35, 40]</td>
+<td style="text-align: center">(40, 45]</td>
+<td style="text-align: center">(45, 50]</td>
+<td style="text-align: center">(50, 55]</td>
+<td style="text-align: center">(55, 60]</td>
+<td style="text-align: center">(60, 65]</td>
+<td style="text-align: center">(65, 70]</td>
+<td style="text-align: center">(70, 75]</td>
+<td style="text-align: center">(75, 80]</td>
+<td style="text-align: center">(80, 85]</td>
+<td style="text-align: center">(85, 90]</td>
+<td style="text-align: center">(90, 95]</td>
+<td style="text-align: center">(95, 100]</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Standard Deviation of Stars</td>
+      <td style="text-align: center">2791</td>
+<td style="text-align: center">2322</td>
+<td style="text-align: center">2303</td>
+<td style="text-align: center">2858</td>
+<td style="text-align: center">2618</td>
+<td style="text-align: center">1407</td>
+<td style="text-align: center">1557</td>
+<td style="text-align: center">1414</td>
+<td style="text-align: center">611</td>
+<td style="text-align: center">171</td>
+<td style="text-align: center">483</td>
+<td style="text-align: center">644</td>
+<td style="text-align: center">291</td>
+<td style="text-align: center">282</td>
+<td style="text-align: center">258</td>
+<td style="text-align: center">173</td>
+<td style="text-align: center">558</td>
+<td style="text-align: center">86</td>
+<td style="text-align: center">394</td>
+<td style="text-align: center">14</td>
+<td style="text-align: center">53</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Standard Deviation of Builds</td>
+      <td style="text-align: center">4648</td>
+<td style="text-align: center">6134</td>
+<td style="text-align: center">14513</td>
+<td style="text-align: center">19039</td>
+<td style="text-align: center">5258</td>
+<td style="text-align: center">2796</td>
+<td style="text-align: center">9215</td>
+<td style="text-align: center">6119</td>
+<td style="text-align: center">4497</td>
+<td style="text-align: center">4531</td>
+<td style="text-align: center">4757</td>
+<td style="text-align: center">4180</td>
+<td style="text-align: center">1131</td>
+<td style="text-align: center">662</td>
+<td style="text-align: center">167</td>
+<td style="text-align: center">648</td>
+<td style="text-align: center">664</td>
+<td style="text-align: center">1634</td>
+<td style="text-align: center">1888</td>
+<td style="text-align: center">77</td>
+<td style="text-align: center">24</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>Note that in our submission, we computed the median instead of average number of builds and stars due to the significant standard deviation (i.e., error bars) of the number of builds and stars as reported in the above figure and table. 
+Therefore, we believe that median is a more suitable metric to such an analysis. We will clarify the reason of choosing median in the paper.
+<br>

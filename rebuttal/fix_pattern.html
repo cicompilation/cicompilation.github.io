@@ -1,0 +1,241 @@
+<br>We classified fix completion into three groups according to whether they can be automatically achieved, shown in the table below.
+<li>Automatic: 28 fix patterns can be automatically realized without any human intervention. 
+These fix patterns often involve the simple addition of existing libraries or classes or the removal of code.</li>
+<li>Semi-Automatic: 13 fix patterns can only be semi-automatically achieved and need human intervention. 
+These fix patterns often involve the addition of new method or class implementation that is related to business logic 
+or the addition of variables that have many possibilities. Therefore, developers need to be involved in the fix process.</li>
+<li>Blackbox: 7 fix patterns for syntax violation errors are difficult to achieve automatic fix. 
+However, blackbox techniques like deep learning techniques have goog potential, as demonstrated by Santos et al. 2018 [42].</li>
+
+<br>It is worth mentioning that, while automatic fixing for each specific fix pattern is feasible, 
+it is difficult to determine which fix pattern should be used for a compiler error, i.e., the root cause analysis problem.
+We believe that automatic root cause analysis can be achieved by investigating the commit history: 
+first identify the code changes in previous commits, 
+then understand the various semantics underlying code changes (e.g., various refactorings) and determine the impact of code changes, 
+and finally establish the cause-effect links between code changes and compiler errors.<br><br>
+
+  <table border="5px" cellpadding="0" cellspacing="0" width="908" style="border-collapse:
+   collapse;table-layout:fixed;width:681pt">
+   <colgroup><col class="xl67" width="356" style="mso-width-source:userset;mso-width-alt:11392;
+   width:267pt">
+   <col class="xl65" width="315" style="mso-width-source:userset;mso-width-alt:10069;
+   width:236pt">
+   <col class="xl79" width="237" style="mso-width-source:userset;mso-width-alt:7594;
+   width:178pt">
+   </colgroup><tbody><tr height="29" style="height:22.0pt">
+    <td height="29" class="xl77" width="356" style="height:22.0pt;width:267pt">Error
+    Type</td>
+    <td class="xl77" width="315" style="width:236pt">Fix Pattern</td>
+    <td class="xl77" width="237" style="width:178pt">Auto Fix?</td>
+   </tr>
+   <tr height="28" style="height:21.0pt">
+    <td rowspan="10" height="244" class="xl77" width="356" style="height:183.0pt;
+    width:267pt">cant.resolve</td>
+    <td class="xl66">correct mistype</td>
+    <td class="xl78"><font class="font14">automatic</font></td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove relevant code</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add class<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add import</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add dependency library</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add method</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add variable</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">update dependency library</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">move class</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">cast object type</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="4" height="96" class="xl77" width="356" style="height:72.0pt;width:267pt">doesnt.exist</td>
+    <td class="xl66">add dependency library</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change imported package</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add imported package and class</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove package import<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="4" height="96" class="xl77" width="356" style="height:72.0pt;width:267pt">expected</td>
+    <td class="xl66">remove illegal tokens<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change, add or remove token</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change keyword</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">move code</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="7" height="168" class="xl77" width="356" style="height:126.0pt;
+    width:267pt">method.does.not.override.superclass</td>
+    <td class="xl66">remove @Override and method</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change method signature in
+    subclass<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add superclass</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">update dependency library</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove @Override</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">import superclass</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add dependency library</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="7" height="168" class="xl77" width="356" style="height:126.0pt;
+    width:267pt">cant.apply.symbol(s)</td>
+    <td class="xl66">add argument</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove argument</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change argument type</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add method</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change method name</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change argument order</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove method call</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="4" height="96" class="xl77" width="356" style="height:72.0pt;width:267pt">illegal.start</td>
+    <td class="xl66">remove illegal code</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change, add or remove token</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add generic type</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">move code</td>
+    <td class="xl78">blackbox</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="6" height="144" class="xl77" width="356" style="height:108.0pt;
+    width:267pt">incompatible.types</td>
+    <td class="xl66">change assignee's type</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">assign new value</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove relevant code</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">convert return value's type</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change method's return type</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">add generic type</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="3" height="72" class="xl77" width="356" style="height:54.0pt;width:267pt">does.not.override.abstract<span style="mso-spacerun:yes">&nbsp;</span></td>
+    <td class="xl66">implement method in subclass</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change method signature in
+    subclass</td>
+    <td class="xl78">semi-automatic&nbsp;</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">remove method in superclass</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td rowspan="3" height="72" class="xl77" width="356" style="height:54.0pt;width:267pt">duplicate.class</td>
+    <td class="xl66">remove class</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change package name</td>
+    <td class="xl78">automatic</td>
+   </tr>
+   <tr height="24" style="height:18.0pt">
+    <td height="24" class="xl66" style="height:18.0pt">change class name</td>
+    <td class="xl78">automatic</td>
+   </tr>
+  
+   <!--[endif]-->
+  </tbody></table>
+  

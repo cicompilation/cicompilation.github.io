@@ -1,0 +1,46 @@
+<h2>Reviewer 1</h2>
+
+<h4>Command Line Flags</h4>
+Google’s study [43] mentioned that “rawtypes, introduced in Java 7, which is seen in 2% of the errors but has a median resolution time of close to 5 minutes. 
+This insight combined with conversations with the developers about the value of this message in the identification or fixing of bugs led to the disabling of this error”. 
+Therefore, we believe unchecked and rawtypes warnings were not disabled but consistently treated as errors in their dataset. 
+Instead, only 72 projects in our dataset configured Travis-CI to treat warnings as errors.
+
+<h4>Example of Regular Expressions for Compiler Errors</h4>
+The formatted error message of "cant.resolve" is available from the compiler properties file:<br>
+cant.resolve=\<br>
+&nbsp&nbsp&nbsp&nbsp cannot find symbol\n\<br>
+&nbsp&nbsp&nbsp&nbsp symbol: {0} {1}<br><br>
+An error message is: <br>
+[ERROR] /home/travis/build/miltonio/milton2/milton-server-ce/src/main/java/io/milton/grizzly/MiltonSNICertificateManager.java:[185,35] cannot find symbol<br>
+symbol : class SNIHostName<br><br>
+
+We manually wrote an regular expression as /cannot find symbol.*symbol.*/ to match the compiler error from the error message.
+
+<h4>Distinguish Production and Test Code</h4>
+We determined whether a broken build was caused by compiler errors in the production or test code by two ways: 
+checking whether compiler errors occur in the default task of compiling production or test code as Maven and Gradle separate their compilation in two tasks, 
+or checking whether the file with compiler errors locates in the default folder of production or test code as Maven and Gradle have separate folders for them (first paragraph of Section 4.4).
+
+<h4>The Different Numbers of Sequences</h4>
+The 12K sequences were derived after applying the 12-hour threshold on the 17K sequences.
+
+<h4>Imprecise in Table 1</h4>
+Imprecise in Table 1 has three meanings. First, it means a wrong error type is reported (the one case in doesnt.exist). 
+Second, it means the error position reported in the error message is not correct (the 29 cases in expected).
+Third, it means an error is wrongly reported due to bugs in JDK, i.e., there should be no error (the one case in cant.apply.symbol(s) and the two cases in incompatible.types).
+
+
+<h2>Reviewer 2</h2>
+
+<h4>Ratio Computation</h4>
+The ratio of broken builds caused by compiler errors is taken out of all failing builds.
+
+
+<h2>Reviewer 3</h2>
+
+<h4>2nd Most Error at Google</h4>
+The 2nd most error at Google was strict, which corresponds to a Google-specific dependency check.
+
+<h4>Labels in Fig.2(a)</h4>
+The value 10 in Fig.2(a) represents the interval (5, 10].
