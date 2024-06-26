@@ -1,0 +1,123 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+---
+<p> Continuous Integration (CI) is a widely-used software development practice to reduce risks. CI builds often break, and a large amount of efforts are put into troubleshooting broken builds. Despite that compiler errors have been recognized as one of the most frequent types of build failures, little is known about the common types, fix efforts and fix patterns of compiler errors that occur in CI builds of open-source projects. To fill such a gap, we present a large-scale empirical study on 6,854,271 CI builds from 3,799 open-source Java projects hosted on GitHub. Using the  build data, we measured the frequency of broken builds caused by compiler errors, investigated the ten most common compiler error types, and reported their fix time. We manually analyzed 325 broken builds to summarize fix patterns of the ten most common compiler error types. Our findings help to characterize and understand compiler errors during CI and provide practical implications to developers, tool builders and researchers.
+  The paper about this study has been submitted to FSE 2019.</p>
+<!--
+<h2>More Details for ESEC/FSE Rebuttal</h2>
+<li><a href="rebuttal/fix_time.html">Sensitivity Analysis for RQ3 (Reviewer 1)</a></li>
+<li><a href="rebuttal/fix_pattern.html">Fix Completion Classification (Reviewer 2)</a></li>
+<li><a href="rebuttal/error_distribution.html">Error Distribution and Project Sizes and Contributors (Reviewer 2)</a></li>
+<li><a href="rebuttal/build_star.html">Fig. 1(a-b) After Removing Noise Data (Reviewer 3)</a></li>
+<li><a href="rebuttal/build_distribution.html">Total, Passed and Failed Build Distribution (Reviewer 3)</a></li>
+<li><a href="rebuttal/minor.html">Responses for Minor Concerns</a></li>
+-->
+  
+<h2>Data Set</h2>
+Our data set consists of 6,854,271 builds for 3,799 projects. The total size is 3.8 TB. If you need it, please contact us.
+
+<h2>RQ2: Frequency and Distribution</h2>
+<ul>
+  <li><a href="files/distribution.csv" download>Overall Distribution of Compiler Error Types</a></li>
+  <!-- <li><a href="files/master.csv" download>Master Branches</a></li> -->
+  <!-- <li><a href="files/others.csv" download>Other Branches</a></li> -->
+  <li><a href="files/production.csv" download>Production Code</a></li>
+  <li><a href="files/test.csv" download>Test Code</a></li>
+  <li><a href="files/push.csv" download>Pushes</a></li>
+  <li><a href="files/pull.csv" download>Pull Requests</a></li>
+</ul>
+<h2>RQ3: Fix Effort</h2>
+<ul>
+  <li><a href="files/time.txt" download>Fix Time of Common Compiler Error Types</a></li>
+</ul>
+
+<h2>RQ4: Cases for each fix pattern</h2>
+<ul>
+    <li>cant.resolve
+      <ul>
+        <li><a href="patterns/cant_resolve/correct_mistype.html">correct mistype</a></li>
+        <li><a href="patterns/cant_resolve/remove_relavent_code.html">remove relevant code</a></li>
+        <li><a href="patterns/cant_resolve/add_class.html">add class</a></li>
+        <li><a href="patterns/cant_resolve/add_import.html">add import</a></li>
+        <li><a href="patterns/cant_resolve/add_dependncy_library.html">add dependency library</a></li>
+        <li><a href="patterns/cant_resolve/add_method.html">add method</a></li>
+        <li><a href="patterns/cant_resolve/add_variable.html">add variable</a></li>
+        <li><a href="patterns/cant_resolve/update_dependency_library.html">update dependency library</a></li>
+        <li><a href="patterns/cant_resolve/move_class.html">move class</a></li>
+        <li><a href="patterns/cant_resolve/cast_object_type.html">cast object type</a></li>
+      </ul>
+    </li>
+    <li>doesnt.exist
+        <ul>
+          <li><a href="patterns/doesnt_exist/add_dependncy_library.html">add dependency library</a></li>
+          <li><a href="patterns/doesnt_exist/change_imported_package.html">change imported package</a></li>
+          <li><a href="patterns/doesnt_exist/add_imported_pacakge_and_class.html">add imported package and class</a></li>
+          <li><a href="patterns/doesnt_exist/remove_package_import.html">remove package import</a></li>
+        </ul>
+    </li>
+    <li>expected
+        <ul>
+            <li><a href="patterns/expected/remove_illegal_token.html">remove illegal tokens</a></li>
+            <li><a href="patterns/expected/change_add_remove_token.html">change, add or remove token</a></li>
+            <li><a href="patterns/expected/change_keyword.html">change keyword</a></li>
+            <li><a href="patterns/expected/move_code.html">move code</a></li>
+          </ul>
+    </li>
+    <li>method.does.not.override.superclass
+        <ul>
+          <li><a href="patterns/method_does_not_override_superclass/remove_override_and_method.html">remove @Override and method</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/change_method_signature_in_subclass.html">change method signature in subclass</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/add_superclass.html">add superclass</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/update_dependency_library.html">update dependency library</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/remove_override.html">remove @Override</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/import_superclass.html">import superclass</a></li>
+          <li><a href="patterns/method_does_not_override_superclass/add_dependency_library.html">add dependency library</a></li>
+        </ul>
+    </li>
+    <li>cant.apply.symbol(s)
+        <ul>
+          <li><a href="patterns/cant_apply_symbol/add_argument.html">add argument</a></li>
+          <li><a href="patterns/cant_apply_symbol/remove_argument.html">remove argument</a></li>
+          <li><a href="patterns/cant_apply_symbol/change_argument_type.html">change argument type</a></li>
+          <li><a href="patterns/cant_apply_symbol/add_method.html">add method</a></li>
+          <li><a href="patterns/cant_apply_symbol/change_method_name.html">change method name</a></li>
+          <li><a href="patterns/cant_apply_symbol/change_argument_order.html">change argument order</a></li>
+          <li><a href="patterns/cant_apply_symbol/remove_method_call.html">remove method call</a></li>
+        </ul>
+    </li>
+    <li>illegal.start
+        <ul>
+            <li><a href="patterns/illegal_start/remove_illegal_code.html">remove illegal code</a></li>
+            <li><a href="patterns/illegal_start/change_add_remove_token.html">change, add or remove token</a></li>
+            <li><a href="patterns/illegal_start/add_generic_type.html">add generic type</a></li>
+            <li><a href="patterns/illegal_start/move_code.html">move code</a></li>
+          </ul>
+    </li>
+    <li>incompatible.types
+        <ul>
+            <li><a href="patterns/incompatible_types/change_assignee_type.html">change assignee’s type</a></li>
+            <li><a href="patterns/incompatible_types/assign_new_value.html">assign new value</a></li>
+            <li><a href="patterns/incompatible_types/remove_relevant_code.html">remove relevant code</a></li>
+            <li><a href="patterns/incompatible_types/convert_return_value_type.html">convert return value’s type</a></li>
+            <li><a href="patterns/incompatible_types/change_method_return_type.html">change method’s return type</a></li>
+            <li><a href="patterns/incompatible_types/add_generic_type.html">add generic type</a></li>
+          </ul>
+    </li>
+    <li>does.not.override.abstract
+        <ul>
+            <li><a href="patterns/does_not_override_abstract/implement_method_in_subclass.html">implement method in subclass</a></li>
+            <li><a href="patterns/does_not_override_abstract/change_method_signature_in_subclass.html">change method signature in subclass</a></li>
+            <li><a href="patterns/does_not_override_abstract/remove_method_in_superclass.html">remove method in superclass</a></li>
+          </ul>
+    </li>
+    <li>duplicate.class
+        <ul>
+            <li><a href="patterns/duplicate_class/remove_class.html">remove class</a></li>
+            <li><a href="patterns/duplicate_class/change_package_name.html">change package name</a></li>
+            <li><a href="patterns/duplicate_class/change_class_name.html">change class name</a></li>
+          </ul>
+    </li>
+  </ul>
