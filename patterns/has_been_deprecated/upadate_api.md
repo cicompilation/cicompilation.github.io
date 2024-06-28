@@ -15,8 +15,7 @@ layout: page
 
 ---------------------
 
-***vespa-http-client/src/main/java/com/yahoo/vespa/http/client/runner/CommandLineArguments.java
-***
+***vespa-http-client/src/main/java/com/yahoo/vespa/http/client/runner/CommandLineArguments.java***
 
 ```diff
     new ConnectionParams.Builder()
