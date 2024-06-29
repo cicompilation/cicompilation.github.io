@@ -1,24 +1,22 @@
 ---
 layout: page
 ---
-## gephi/gephi 16.1
+## bndtools/bnd 2773.2
 
 ### Warning Message
 
 ---------------------
 
 ```java
-home/trvis/build/gehi/gephi/nouesPreviewtxportuIsre/main/java/or/gephi/ui/exporter/preview/UIExorterPNGPanel.jav:192,17 [unchecked]unchecked gneric aray creation for varargs parameter of type Validator<String>[]
-
+compileJavawarning:[options]bootstrap class path not set in conjunction with -source 1.7
 ```
 
 ### Code Change
 
 ---------------------
 
-***pom.xml***
+***build.gradle***
 
 ```diff
-+               <gephi.javac.xlint>-Xlint:none</gephi.javac.xlint>
-            </properties>
+- options.compilerArgs.add('-Xlint:-options')
 ```
