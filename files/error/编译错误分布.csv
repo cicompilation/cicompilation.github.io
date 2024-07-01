@@ -1,0 +1,218 @@
+cant_resolve,963730,0.5455105320387602
+doesnt_exist,283480,0.16046125535403874
+expected,100628,0.056959556948519154
+method_does_not_override_superclass,62974,0.03564585542071834
+cant_apply_symbol,45046,0.025497875365733134
+illegal_start,38532,0.021810685379221886
+incompatible_types,34393,0.019467842371212976
+does_not_override_abstract,34018,0.01925557705881787
+duplicate_class,25628,0.014506494469498041
+cant_apply_symbols,22479,0.012724031886212208
+diamond_not_supported,18861,0.01067609615222423
+reference_ambiguous,14153,0.00801117591020781
+not_stmt,8745,0.004950027085053862
+static_imp_only_classes_and_interfaces,8569,0.004850403898436426
+report_access,8271,0.004681723730186448
+local_var_accessed_from_icls_needs_final,7392,0.004184173837932321
+wrong_number_type_args,6658,0.0037686998664709674
+cant_implement,6558,0.003712095783165606
+does_not_take_parameters,4651,0.0026326559145323624
+cant_override,4340,0.002456617215452688
+cant_apply_diamond,3630,0.0020547282239846217
+class_public_should_be_in_file,3578,0.0020252941006658337
+already_defined,3512,0.0019879354056842953
+illegal_char_for_encoding,3337,0.0018888782598999127
+source_no_bootclasspath,2601,0.0014722722067724522
+not_def_public_cant_access,2591,0.001466611798441916
+name_clash_same_erasure,2588,0.001464913675942755
+raw_class_use,2580,0.0014603853492783263
+unreported_exception_need_to_catch_or_throw,2568,0.0014535928592816828
+proc_cant_access,2533,0.0014337814301248063
+error_reading_file,2310,0.0013075543243538503
+apply_to,2090,0.001183025341082055
+non_static_cant_be_ref,1798,0.0010177414178303994
+not_within_bounds,1738,0.0009837789678471826
+dc_bad_gt,1677,0.0009492504770309121
+unchecked_assign,1605,0.0009084955370510518
+invalid_meth_decl_ret_type_req,1603,0.0009073634553849446
+illegal_char,1451,0.0008213252487607951
+invalid_mref,1420,0.0008037779829361331
+premature_eof,1305,0.0007386832871349673
+lambda_not_supported_in_source,1258,0.0007120793679814474
+"(?m-ix:^[^\n]*invalid target release[^\n]*([^\n]*\n){0,}[^\n]*\n)",1026,0.0005807578947130088
+inconvertible_types,984,0.000556984179724757
+invalid_inferred_types,938,0.0005309463014042907
+abstract_cant_be_instantiated,932,0.000527550056405969
+cant_deref,825,0.0004669836872692322
+unknow_compilatiopn_problem,801,0.0004533987072759455
+try_with_resources_not_supported_in_source,744,0.00042113437979188944
+incomparable_types,738,0.00041773813479356776
+duplicate_annotation_missing_container,446,0.00025245421154191223
+operator_cant_be_applied_1,437,0.0002473598440444297
+missing_ret_stmt,424,0.00024000131321473268
+cant_assign_val_to_final_var,419,0.0002371711090494646
+"(?m-ix:^[^\n]*exception[^\n]*is never thrown in body of corresponding try statement([^\n]*\n){0,}[^\n]*\n)",386,0.00021849176155869533
+"(?m-ix:^[^\n]*an enum switch case label must be the unqualified name of an enumeration constant([^\n]*\n){0,}[^\n]*\n)",386,0.00021849176155869533
+"(?m-ix:^[^\n]*unchecked cast([^\n]*\n){0,}[^\n]*\n)",379,0.00021452947572732
+deprecated_filename,364,0.0002060388632315158
+"(?m-ix:^[^\n]*types[^\n]*and[^\n]*are incompatible[^\n]*both define[^\n]*but with unrelated return types([^\n]*\n){0,}[^\n]*\n)",305,0.00017264245408135252
+"(?m-ix:^([^\n]*\n){0,3}[^\n]*is ambiguous for[^\n]*\n)",298,0.00016868016824997723
+"(?m-ix:^[^\n]*default methods are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable default methods[^\n]*([^\n]*\n){0,}[^\n]*\n)",268,0.00015169894325836876
+"(?m-ix:^[^\n]*multi-catch statement is not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 7 or higher to enable multi-catch statement[^\n]*([^\n]*\n){0,}[^\n]*\n)",264,0.0001494347799261543
+"(?m-ix:^[^\n]*method references are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable method references[^\n]*([^\n]*\n){0,}[^\n]*\n)",260,0.00014717061659393985
+"(?m-ix:^[^\n]*unclosed character literal([^\n]*\n){0,}[^\n]*\n)",258,0.00014603853492783263
+"(?m-ix:^[^\n]*package[^\n]*is not visible[^\n]*([^\n]*\n){0,}[^\n]*\n)",258,0.00014603853492783263
+"(?m-ix:^[^\n]*variable[^\n]*might not have been initialized([^\n]*\n){0,}[^\n]*\n)",253,0.00014320833076256456
+"(?m-ix:^[^\n]*malformed HTML([^\n]*\n){0,}[^\n]*\n)",241,0.00013641584076592116
+"(?m-ix:^[^\n]*possible loss of precision([^\n]*\n){0,}[^\n]*\n)",231,0.00013075543243538503
+"(?m-ix:^[^\n]*else[^\n]*without[^\n]*if[^\n]*([^\n]*\n){0,}[^\n]*\n)",231,0.00013075543243538503
+"(?m-ix:^[^\n]*in[^\n]*is defined in an inaccessible class or interface([^\n]*\n){0,}[^\n]*\n)",225,0.00012735918743706333
+"(?m-ix:^[^\n]*unclosed string literal([^\n]*\n){0,}[^\n]*\n)",217,0.00012283086077263442
+"(?m-ix:^[^\n]*illegal forward reference([^\n]*\n){0,}[^\n]*\n)",206,0.00011660441160904466
+"(?m-ix:^[^\n]*in[^\n]*clashes with[^\n]*in[^\n]*([^\n]*\n){0,}[^\n]*\n)",202,0.0001143402482768302
+"(?m-ix:^[^\n]*inherits abstract and default for[^\n]*from types[^\n]*and[^\n]*([^\n]*\n){0,}[^\n]*\n)",202,0.0001143402482768302
+"(?m-ix:^[^\n]*type annotations are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable type annotations[^\n]*([^\n]*\n){0,}[^\n]*\n)",201,0.00011377420744377658
+"(?m-ix:^[^\n]*abstract[^\n]*in[^\n]*cannot be accessed directly([^\n]*\n){0,}[^\n]*\n)",197,0.00011151004411156212
+"(?m-ix:^[^\n]*bad source file[^\n]*([^\n]*\n){0,3}[^\n]*\n[^\n]*Please remove or make sure it appears in the correct subdirectory of the sourcepath[^\n]*([^\n]*\n){0,}[^\n]*\n)",196,0.0001109440032785085
+"(?m-ix:^[^\n]*inherits unrelated defaults for[^\n]*from types[^\n]*and[^\n]*([^\n]*\n){0,}[^\n]*\n)",183,0.00010358547244881151
+"(?m-ix:^[^\n]*cannot inherit from final[^\n]*([^\n]*\n){0,}[^\n]*\n)",181,0.00010245339078270428
+"(?m-ix:^[^\n]*array required[^\n]*but[^\n]*found([^\n]*\n){0,}[^\n]*\n)",162,9.16986149546856e-05
+"(?m-ix:^[^\n]*void[^\n]*type not allowed here([^\n]*\n){0,}[^\n]*\n)",160,9.056653328857838e-05
+"(?m-ix:^[^\n]*annotation type not applicable to this kind of declaration([^\n]*\n){0,}[^\n]*\n)",148,8.377404329193499e-05
+"(?m-ix:^[^\n]*try[^\n]*without[^\n]*catch[^\n]*finally[^\n]*or resource declarations([^\n]*\n){0,}[^\n]*\n)",146,8.264196162582776e-05
+"(?m-ix:^[^\n]*annotation[^\n]*is missing a default value for the element[^\n]*([^\n]*\n){0,}[^\n]*\n)",143,8.094383912666692e-05
+"(?m-ix:^[^\n]*illegal generic type for instanceof([^\n]*\n){0,}[^\n]*\n)",142,8.037779829361331e-05
+"(?m-ix:^[^\n]*catch[^\n]*without[^\n]*try[^\n]*([^\n]*\n){0,}[^\n]*\n)",137,7.754759412834523e-05
+"(?m-ix:^[^\n]*no tag name after[^\n]*([^\n]*\n){0,}[^\n]*\n)",136,7.698155329529161e-05
+"(?m-ix:^[^\n]*an enum annotation value must be an enum constant([^\n]*\n){0,}[^\n]*\n)",135,7.6415512462238e-05
+"(?m-ix:^[^\n]*annotation not valid for a value of type[^\n]*([^\n]*\n){0,}[^\n]*\n)",132,7.471738996307715e-05
+"(?m-ix:^[^\n]*illegal escape character([^\n]*\n){0,}[^\n]*\n)",131,7.415134913002355e-05
+"(?m-ix:^[^\n]*unreachable statement([^\n]*\n){0,}[^\n]*\n)",130,7.358530829696992e-05
+"(?m-ix:^[^\n]*attribute value must be constant([^\n]*\n){0,}[^\n]*\n)",123,6.962302246559462e-05
+"(?m-ix:^[^\n]*malformed floating point literal([^\n]*\n){0,}[^\n]*\n)",109,6.169845080284402e-05
+"(?m-ix:^[^\n]*annotations are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable annotations[^\n]*([^\n]*\n){0,}[^\n]*\n)",103,5.830220580452233e-05
+"(?m-ix:^[^\n]*variable[^\n]*not initialized in the default constructor([^\n]*\n){0,}[^\n]*\n)",98,5.547200163925425e-05
+"(?m-ix:^[^\n]*bad class file[^\n]*([^\n]*\n){0,3}[^\n]*\n[^\n]*Please remove or make sure it appears in the correct subdirectory of the classpath[^\n]*([^\n]*\n){0,}[^\n]*\n)",95,5.377387914009341e-05
+"(?m-ix:^[^\n]*for-each not applicable to expression type([^\n]*\n){0,3}[^\n]*required[^\n]*\n[^\n]*found[^\n]*([^\n]*\n){0,}[^\n]*\n)",85,4.811347080955726e-05
+descriptor,85,4.811347080955726e-05
+"(?m-ix:^[^\n]*recursive constructor invocation([^\n]*\n){0,}[^\n]*\n)",76,4.3019103312074725e-05
+"(?m-ix:^[^\n]*bad HTML entity([^\n]*\n){0,}[^\n]*\n)",72,4.075493997986027e-05
+"(?m-ix:^[^\n]*static interface methods are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable static interface methods[^\n]*([^\n]*\n){0,}[^\n]*\n)",71,4.0188899146806654e-05
+"(?m-ix:^[^\n]*as of release 5[^\n]*enum[^\n]*is a keyword[^\n]*and may not be used as an identifier([^\n]*\n){0,3}[^\n]*use -source 1[^\n]*4 or lower to use[^\n]*enum[^\n]*as an identifier[^\n]*([^\n]*\n){0,}[^\n]*\n)",70,3.962285831375304e-05
+"(?m-ix:^[^\n]*modifier[^\n]*not allowed here([^\n]*\n){0,}[^\n]*\n)",67,3.792473581459219e-05
+"(?m-ix:^[^\n]*strings in switch are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 7 or higher to enable strings in switch[^\n]*([^\n]*\n){0,}[^\n]*\n)",64,3.622661331543135e-05
+"(?m-ix:^[^\n]*Exception thrown while constructing Processor object[^\n]*([^\n]*\n){0,}[^\n]*\n)",61,3.4528490816270505e-05
+"(?m-ix:^[^\n]*illegal initializer for[^\n]*([^\n]*\n){0,}[^\n]*\n)",61,3.4528490816270505e-05
+"(?m-ix:^[^\n]*Fatal Error[^\n]*Unable to find package java[^\n]*lang in classpath or bootclasspath([^\n]*\n){0,}[^\n]*\n)",61,3.4528490816270505e-05
+"(?m-ix:^[^\n]*Source option[^\n]*is no longer supported[^\n]*Use[^\n]*or later[^\n]*([^\n]*\n){0,}[^\n]*\n)",56,3.169828665100243e-05
+"(?m-ix:^[^\n]*a type with the same simple name is already defined by the single-type-import of[^\n]*([^\n]*\n){0,}[^\n]*\n)",55,3.1132245817948814e-05
+"(?m-ix:^[^\n]*bad type qualifier[^\n]*in default super call([^\n]*\n){0,3}[^\n]*([^\n]*\n){0,}[^\n]*\n)",54,3.05662049848952e-05
+"(?m-ix:^[^\n]*module not found[^\n]*([^\n]*\n){0,}[^\n]*\n)",53,3.0000164151841585e-05
+"(?m-ix:^[^\n]*try[^\n]*without[^\n]*catch[^\n]*or[^\n]*finally[^\n]*([^\n]*\n){0,}[^\n]*\n)",52,2.943412331878797e-05
+"(?m-ix:^[^\n]*element value must be a constant expression([^\n]*\n){0,}[^\n]*\n)",52,2.943412331878797e-05
+"(?m-ix:^[^\n]*duplicate case label([^\n]*\n){0,}[^\n]*\n)",47,2.6603919153519897e-05
+"(?m-ix:^[^\n]*variable declaration not allowed here([^\n]*\n){0,}[^\n]*\n)",46,2.6037878320466283e-05
+"(?m-ix:^[^\n]*not applicable to[^\n]*([^\n]*\n){0,}[^\n]*\n)",44,2.490579665435905e-05
+"(?m-ix:^[^\n]*bad operand type[^\n]*for unary operator[^\n]*([^\n]*\n){0,}[^\n]*\n)",43,2.4339755821305437e-05
+"(?m-ix:^[^\n]*is not visible because package[^\n]*is not visible([^\n]*\n){0,}[^\n]*\n)",42,2.3773714988251823e-05
+"(?m-ix:^[^\n]*Alternatives in a multi-catch statement cannot be related by subclassing([^\n]*\n){0,3}[^\n]*Alternative[^\n]*is a subclass of alternative[^\n]*([^\n]*\n){0,}[^\n]*\n)",41,2.320767415519821e-05
+"(?m-ix:^[^\n]*illegal[^\n]*([^\n]*\n){0,}[^\n]*\n)",41,2.320767415519821e-05
+"(?m-ix:^[^\n]*annotation[^\n]*is missing value for the attribute[^\n]*([^\n]*\n){0,}[^\n]*\n)",38,2.1509551656037362e-05
+"(?m-ix:^[^\n]*finally[^\n]*without[^\n]*try[^\n]*([^\n]*\n){0,}[^\n]*\n)",34,1.9245388323822902e-05
+"(?m-ix:^[^\n]*duplicate element[^\n]*in annotation[^\n]*([^\n]*\n){0,}[^\n]*\n)",32,1.8113306657715674e-05
+"(?m-ix:^[^\n]*in[^\n]*overrides[^\n]*in[^\n]*([^\n]*\n){0,}[^\n]*\n)",32,1.8113306657715674e-05
+"(?m-ix:^[^\n]*is not applicable([^\n]*\n){0,3}[^\n]*([^\n]*\n){0,}[^\n]*\n)",32,1.8113306657715674e-05
+"(?m-ix:^[^\n]*package annotations should be in file package-info[^\n]*java([^\n]*\n){0,}[^\n]*\n)",31,1.754726582466206e-05
+"(?m-ix:^[^\n]*variable[^\n]*might already have been assigned([^\n]*\n){0,}[^\n]*\n)",30,1.6981224991608446e-05
+"(?m-ix:^[^\n]*annotation values must be of the form[^\n]*name=value[^\n]*([^\n]*\n){0,}[^\n]*\n)",29,1.641518415855483e-05
+"(?m-ix:^[^\n]*call to[^\n]*must be first statement in constructor([^\n]*\n){0,}[^\n]*\n)",28,1.5849143325501214e-05
+"(?m-ix:^[^\n]*an enclosing instance that contains[^\n]*is required([^\n]*\n){0,}[^\n]*\n)",27,1.52831024924476e-05
+"(?m-ix:^[^\n]*internal error[^\n]*cannot instantiate[^\n]*at[^\n]*to[^\n]*([^\n]*\n){0,}[^\n]*\n)",26,1.4717061659393986e-05
+"(?m-ix:^[^\n]*return outside method([^\n]*\n){0,}[^\n]*\n)",24,1.3584979993286755e-05
+"(?m-ix:^[^\n]*interface methods cannot have body([^\n]*\n){0,}[^\n]*\n)",24,1.3584979993286755e-05
+"(?m-ix:^[^\n]*abstract methods cannot have a body([^\n]*\n){0,}[^\n]*\n)",22,1.2452898327179525e-05
+"(?m-ix:^[^\n]*Primitive types cannot be @Nullable[^\n]*([^\n]*\n){0,}[^\n]*\n)",20,1.1320816661072297e-05
+"(?m-ix:^[^\n]*missing method body[^\n]*or declare abstract([^\n]*\n){0,}[^\n]*\n)",20,1.1320816661072297e-05
+"(?m-ix:^[^\n]*bad operand type[^\n]*([^\n]*\n){0,}[^\n]*\n)",18,1.0188734994965067e-05
+"(?m-ix:^[^\n]*floating point number too large([^\n]*\n){0,}[^\n]*\n)",18,1.0188734994965067e-05
+"(?m-ix:^[^\n]*annotations after method type parameters are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable annotations after method type parameters[^\n]*([^\n]*\n){0,}[^\n]*\n)",18,1.0188734994965067e-05
+"(?m-ix:^[^\n]*annotation value not of an allowable type([^\n]*\n){0,}[^\n]*\n)",18,1.0188734994965067e-05
+"(?m-ix:^[^\n]*duplicate annotation([^\n]*\n){0,}[^\n]*\n)",17,9.622694161911451e-06
+"(?m-ix:^[^\n]*orphaned[^\n]*([^\n]*\n){0,}[^\n]*\n)",16,9.056653328857837e-06
+"(?m-ix:^[^\n]*cannot reference[^\n]*before supertype constructor has been called([^\n]*\n){0,}[^\n]*\n)",16,9.056653328857837e-06
+"(?m-ix:^[^\n]*not an enclosing class[^\n]*([^\n]*\n){0,}[^\n]*\n)",16,9.056653328857837e-06
+"(?m-ix:^[^\n]*missing in reference([^\n]*\n){0,}[^\n]*\n)",15,8.490612495804223e-06
+"(?m-ix:^[^\n]*local variables referenced from[^\n]*must be final or effectively final([^\n]*\n){0,}[^\n]*\n)",14,7.924571662750607e-06
+"(?m-ix:^[^\n]*code too large([^\n]*\n){0,}[^\n]*\n)",14,7.924571662750607e-06
+"(?m-ix:^[^\n]*enum types may not be instantiated([^\n]*\n){0,}[^\n]*\n)",14,7.924571662750607e-06
+"(?m-ix:^[^\n]*Bad service configuration file[^\n]*or exception thrown while constructing Processor object[^\n]*([^\n]*\n){0,}[^\n]*\n)",14,7.924571662750607e-06
+"(?m-ix:^[^\n]*annotation[^\n]*is missing default values for elements[^\n]*([^\n]*\n){0,}[^\n]*\n)",14,7.924571662750607e-06
+"(?m-ix:^[^\n]*interface abstract methods cannot have body([^\n]*\n){0,}[^\n]*\n)",13,7.358530829696993e-06
+"(?m-ix:^[^\n]*cannot return a value from method whose result type is void([^\n]*\n){0,}[^\n]*\n)",12,6.792489996643378e-06
+"(?m-ix:^[^\n]*exception[^\n]*has already been caught([^\n]*\n){0,}[^\n]*\n)",12,6.792489996643378e-06
+"(?m-ix:^[^\n]*final parameter[^\n]*may not be assigned([^\n]*\n){0,}[^\n]*\n)",11,6.226449163589763e-06
+"(?m-ix:^[^\n]*repeated modifier([^\n]*\n){0,}[^\n]*\n)",11,6.226449163589763e-06
+"(?m-ix:^[^\n]*static interface method invocations are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable static interface method invocations[^\n]*([^\n]*\n){0,}[^\n]*\n)",11,6.226449163589763e-06
+"(?m-ix:^[^\n]*actual argument[^\n]*cannot be converted to[^\n]*by method invocation conversion([^\n]*\n){0,}[^\n]*\n)",11,6.226449163589763e-06
+"(?m-ix:^[^\n]*in[^\n]*implements[^\n]*in[^\n]*([^\n]*\n){0,}[^\n]*\n)",11,6.226449163589763e-06
+"(?m-ix:^[^\n]*only have the following parameters[^\n]*([^\n]*\n){0,}[^\n]*\n)",10,5.6604083305361485e-06
+"(?m-ix:^[^\n]*integer number too large[^\n]*([^\n]*\n){0,}[^\n]*\n)",10,5.6604083305361485e-06
+"(?m-ix:^[^\n]*annotation value must be an annotation([^\n]*\n){0,}[^\n]*\n)",10,5.6604083305361485e-06
+"(?m-ix:^[^\n]*constant expression required([^\n]*\n){0,}[^\n]*\n)",10,5.6604083305361485e-06
+"(?m-ix:^[^\n]*missing return value([^\n]*\n){0,}[^\n]*\n)",9,5.0943674974825335e-06
+"(?m-ix:^[^\n]*cyclic inheritance involving[^\n]*([^\n]*\n){0,}[^\n]*\n)",9,5.0943674974825335e-06
+"(?m-ix:^[^\n]*generics are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable generics[^\n]*([^\n]*\n){0,}[^\n]*\n)",9,5.0943674974825335e-06
+"(?m-ix:^[^\n]*cannot be inherited with different arguments[^\n]*<[^\n]*> and <[^\n]*>([^\n]*\n){0,}[^\n]*\n)",9,5.0943674974825335e-06
+"(?m-ix:^[^\n]*error while writing[^\n]*([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*unterminated signature([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*has already been annotated([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*methods[^\n]*from[^\n]*and[^\n]*from[^\n]*are inherited with the same signature([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*for-each loops are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable for-each loops[^\n]*([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*empty character literal([^\n]*\n){0,}[^\n]*\n)",8,4.5283266644289185e-06
+"(?m-ix:^[^\n]*Invalid[^\n]*annotation[^\n]*([^\n]*\n){0,}[^\n]*\n)",7,3.9622858313753035e-06
+"(?m-ix:^[^\n]*underscores in literals are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 7 or higher to enable underscores in literals[^\n]*([^\n]*\n){0,}[^\n]*\n)",7,3.9622858313753035e-06
+"(?m-ix:^[^\n]*cannot select from a type variable([^\n]*\n){0,}[^\n]*\n)",7,3.9622858313753035e-06
+"(?m-ix:^[^\n]*import requires canonical name for[^\n]*([^\n]*\n){0,}[^\n]*\n)",7,3.9622858313753035e-06
+"(?m-ix:^[^\n]*package exists in another module[^\n]*([^\n]*\n){0,}[^\n]*\n)",7,3.9622858313753035e-06
+"(?m-ix:^[^\n]*repeated annotations are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 8 or higher to enable repeated annotations[^\n]*([^\n]*\n){0,}[^\n]*\n)",6,3.396244998321689e-06
+"(?m-ix:^[^\n]*as of release 8[^\n]*this[^\n]*is allowed as the parameter name for the receiver type only[^\n]*which has to be the first parameter([^\n]*\n){0,}[^\n]*\n)",6,3.396244998321689e-06
+"(?m-ix:^[^\n]*cannot determine module name for[^\n]*([^\n]*\n){0,}[^\n]*\n)",6,3.396244998321689e-06
+"(?m-ix:^[^\n]*binary numbers must contain at least one binary digit([^\n]*\n){0,}[^\n]*\n)",6,3.396244998321689e-06
+"(?m-ix:^[^\n]*self-reference in initializer([^\n]*\n){0,}[^\n]*\n)",6,3.396244998321689e-06
+"(?m-ix:^[^\n]*unclosed comment([^\n]*\n){0,}[^\n]*\n)",5,2.8302041652680743e-06
+"(?m-ix:^[^\n]*modules are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 9 or higher to enable modules[^\n]*([^\n]*\n){0,}[^\n]*\n)",5,2.8302041652680743e-06
+"(?m-ix:^[^\n]*invalid type for annotation member([^\n]*\n){0,}[^\n]*\n)",5,2.8302041652680743e-06
+"(?m-ix:^[^\n]*variable-arity methods are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable variable-arity methods[^\n]*([^\n]*\n){0,}[^\n]*\n)",5,2.8302041652680743e-06
+"(?m-ix:^[^\n]*undefined label[^\n]*([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*static import declarations are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable static import declarations[^\n]*([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*generic array creation([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*package[^\n]*clashes with class of same name([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*cannot select a static class from a parameterized type([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*enhanced for loops are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable for-each loops[^\n]*([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*repeated interface([^\n]*\n){0,}[^\n]*\n)",4,2.2641633322144592e-06
+"(?m-ix:^[^\n]*illegal underscore([^\n]*\n){0,}[^\n]*\n)",3,1.6981224991608444e-06
+"(?m-ix:^[^\n]*array dimension missing([^\n]*\n){0,}[^\n]*\n)",3,1.6981224991608444e-06
+"(?m-ix:^[^\n]*variable[^\n]*might be assigned in loop([^\n]*\n){0,}[^\n]*\n)",3,1.6981224991608444e-06
+"(?m-ix:^[^\n]*qualified new of static class([^\n]*\n){0,}[^\n]*\n)",3,1.6981224991608444e-06
+"(?m-ix:^[^\n]*illegal combination of modifiers[^\n]*and[^\n]*([^\n]*\n){0,}[^\n]*\n)",3,1.6981224991608444e-06
+"(?m-ix:^[^\n]*enum types must not be local([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*illegal reference to static field from initializer([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*illegal unicode escape([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*cannot declare both[^\n]*and[^\n]*in[^\n]*([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*constant string expression required([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*cannot find module[^\n]*([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*anonymous class implements interface[^\n]*cannot have arguments([^\n]*\n){0,}[^\n]*\n)",2,1.1320816661072296e-06
+"(?m-ix:^[^\n]*no enclosing instance of type[^\n]*is in scope([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*illegal line end in character literal([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*annotation value must be a class literal([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*break outside switch or loop([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*binary literals are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 7 or higher to enable binary literals[^\n]*([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*constant string too long([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*enums are not supported in -source[^\n]*([^\n]*\n){0,3}[^\n]*use -source 5 or higher to enable enums[^\n]*([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*illegal static interface method call([^\n]*\n){0,3}[^\n]*the receiver expression should be replaced with the type qualifier[^\n]*([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*incompatible thrown types[^\n]*in method reference([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*repeatable annotation type[^\n]*is[^\n]*Documented while containing annotation type[^\n]*is not([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*unreported exception[^\n]*in default constructor([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*bad initializer for[^\n]*([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*Annotation processor[^\n]*not found([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07
+"(?m-ix:^[^\n]*in[^\n]*cannot hide[^\n]*in[^\n]*([^\n]*\n){0,}[^\n]*\n)",1,5.660408330536148e-07

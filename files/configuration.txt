@@ -1,0 +1,111 @@
+gradle has 4 parameters under the compatibility category. They are: 
+    encoding
+    release
+    source
+    target
+gradle has 2 parameters under the performance category. They are: 
+    fork
+    useIncrementalCompilation
+gradle has 17 parameters under the environment category. They are: 
+    annotationProcessorPaths
+    compileSourceRoots
+    compileSourceRoots
+    outputDirectory
+    outputDirectory
+    srcDirs
+    generatedSourcesDirectory
+    excludes
+    includes
+    javaCompiler
+    classpath
+    modularity
+    annotationProcessorGeneratedSourcesDirectory
+    bootstrapClasspath
+    extensionDirs
+    headerOutputDirectory
+    compilerArgumentProviders
+gradle has 1 parameters under the policy category. They are: 
+    failOnError
+gradle has 6 parameters under the debugging category. They are: 
+    debug
+    debuglevel
+    showDeprecation
+    showWarnings
+    verbose
+    listFiles
+gradle has 3 parameters under the other category. They are: 
+    compilerArgs
+    testCompilerArguments
+    forkOptions
+
+maven has 8 parameters under the compatibility category. They are: 
+    encoding
+    release
+    source
+    target
+    enablePreview
+    testRelease
+    testSource
+    testTarget
+maven has 7 parameters under the performance category. They are: 
+    fork
+    compilerReuseStrategy
+    maxmem
+    meminitial
+    staleMillis
+    useIncrementalCompilation
+    fileExtensions
+maven has 23 parameters under the environment category. They are: 
+    annotationProcessorPaths
+    annotationProcessorPathsUseDepMgmt
+    annotationProcessors
+    compilerId
+    compilerVersion
+    executable
+    forceJavacCompilerUse
+    jdkToolchain
+    compileSourceRoots
+    outputDirectory
+    debugFileName
+    generatedSourcesDirectory
+    generatedTestSourcesDirectory
+    multiReleaseOutput
+    outputFileName
+    outputTimestamp
+    excludes
+    includes
+    incrementalExcludes
+    testExcludes
+    testIncludes
+    testIncrementalExcludes
+    useModulePath
+maven has 8 parameters under the policy category. They are: 
+    createMissingPackageInfoClass
+    failOnError
+    failOnWarning
+    implicit
+    optimize
+    proc
+    skipMain
+    skip
+maven has 7 parameters under the debugging category. They are: 
+    debug
+    debuglevel
+    showCompilationChanges
+    showDeprecation
+    showWarnings
+    skipMultiThreadWarning
+    verbose
+maven has 6 parameters under the other category. They are: 
+    compilerArgs
+    arg
+    compilerArgument
+    compilerArguments
+    testCompilerArgument
+    testCompilerArguments
+
+Usage of Maven Parameters
+{manual@maven@-nowarn@debugging=1, manual@maven@-try@debugging=1, manual@maven@-Xlint:divzero@debugging=1, official@maven@compilerReuseStrategy@performance=1, official@maven@outputFileName@environment=1, official@maven@testIncludes@environment=1, manual@maven@-Xlint:path@debugging=1, manual@maven@unchecked@debugging=1, manual@maven@Xlint:unchecked@debugging=1, manual@maven@options@debugging=1, manual@maven@-Xlint:overrides@debugging=1, manual@maven@-Xlint:-fallthrough@debugging=1, manual@maven@-Xlint:dep-ann@debugging=1, manual@maven@-classfile@debugging=1, manual@maven@Xlint:deprecation@debugging=1, manual@maven@-Xlint:static@debugging=1, manual@maven@-Xlint:try@debugging=1, manual@maven@-Xlint:classfile@debugging=1, official@maven@generatedTestSourcesDirectory@environment=1, official@maven@implicit@policy=1, manual@maven@-Xlint:-dep-ann@debugging=1, manual@maven@-Xlint:none@debugging=1, manual@maven@-Xlint:-try@debugging=1, manual@maven@-Xlint:-varargs@debugging=1, manual@maven@-Xlint:rawtypes@debugging=1, manual@maven@-Xlint:fallthrough@debugging=1, manual@maven@-Xlint:options@debugging=1, manual@maven@-Xlint:-cast@debugging=1, official@maven@testExcludes@environment=1, manual@maven@Xlint:-serial@debugging=1, manual@maven@-Xlint:-unchecked@debugging=2, official@maven@testRelease@compatibility=2, manual@maven@fallthrough@debugging=2, manual@maven@-Xlint:-classfile@debugging=2, manual@maven@-Xlint:-deprecation@debugging=2, supplement@maven@-Xmaxerrs@debugging=2, manual@maven@-Xlint:empty@debugging=2, manual@maven@finally@debugging=2, manual@maven@-Xlint:cast@debugging=2, manual@maven@-Xlint:-rawtypes@debugging=2, manual@maven@Xlint:all@debugging=2, manual@maven@-Xlint:finally@debugging=2, manual@maven@-profile@environment=3, official@maven@failOnError@policy=3, official@maven@includes@environment=3, official@maven@jdkToolchain@environment=3, manual@maven@-deprecation@debugging=3, official@maven@generatedSourcesDirectory@environment=3, manual@maven@-processing@debugging=4, manual@maven@-rawtypes@debugging=4, manual@maven@-Xlint:varargs@debugging=4, official@maven@skipMain@policy=4, official@maven@excludes@environment=4, official@maven@annotationProcessors@environment=4, manual@maven@-unchecked@debugging=4, manual@maven@-XepDisableWarningsInGeneratedCode@debugging=4, manual@maven@--add-modules@environment=5, official@maven@skip@policy=6, manual@maven@Xmaxerrs@debugging=6, official@maven@executable@environment=6, official@maven@failOnWarning@policy=7, manual@maven@--add-exports@policy=8, manual@maven@-serial@debugging=8, manual@maven@deprecation@debugging=10, manual@maven@-path@debugging=11, manual@maven@-options@debugging=11, manual@maven@-Xlint:-path@debugging=12, manual@maven@none@debugging=12, supplement@maven@Xlint@debugging=12, manual@maven@-Xlint:-serial@debugging=12, manual@maven@path@debugging=12, supplement@maven@include@environment=12, official@maven@proc@policy=14, manual@maven@parameters@policy=15, manual@maven@-XDcompilePolicy=simple@policy=15, supplement@maven@annotationProcessor@environment=16, manual@maven@-Xlint:-processing@debugging=16, official@maven@debuglevel@debugging=17, manual@maven@-XDignore.symbol.file@environment=17, manual@maven@-Xlint:-options@debugging=21, official@maven@meminitial@performance=23, supplement@maven@-Xlint@debugging=27, manual@maven@-Xlint:deprecation@debugging=32, manual@maven@-Werror@policy=32, supplement@maven@-proc:none@policy=34, official@maven@testSource@compatibility=36, official@maven@testTarget@compatibility=37, official@maven@maxmem@performance=38, official@maven@forceJavacCompilerUse@environment=40, official@maven@verbose@debugging=40, official@maven@useIncrementalCompilation@performance=42, supplement@maven@exclude@environment=44, supplement@maven@-parameters@policy=45, official@maven@compilerId@environment=48, official@maven@annotationProcessorPaths@environment=54, manual@maven@-Xlint:unchecked@debugging=57, official@maven@compilerVersion@environment=72, official@maven@optimize@policy=73, official@maven@debug@debugging=75, manual@maven@-Xlint:all@debugging=79, official@maven@fork@performance=105, official@maven@release@compatibility=115, official@maven@showDeprecation@debugging=181, official@maven@showWarnings@debugging=202, official@maven@encoding@compatibility=353, official@maven@target@compatibility=1777, official@maven@source@compatibility=1780}
+
+Usage of Gradle Parameter
+{supplement@gradle@isIncremental@performance=1, manual@gradle@-path@debugging=1, official@gradle@destinationDirectory@environment=1, supplement@gradle@isFork@performance=1, manual@gradle@-Xlint:-overrides@debugging=1, manual@gradle@overrides@debugging=1, manual@gradle@-Xlint:-varargs@debugging=1, manual@gradle@try@debugging=1, manual@gradle@-deprecation@debugging=1, manual@gradle@--add-exports@policy=1, manual@gradle@-Xlint:serial@debugging=1, official@gradle@bootstrapClasspath@environment=1, official@gradle@failOnError@policy=1, supplement@gradle@isFailOnError@policy=1, manual@gradle@-XepDisableWarningsInGeneratedCode@debugging=2, official@gradle@sourcepath@environment=2, manual@gradle@cast@debugging=2, manual@gradle@-rawtypes@debugging=2, manual@gradle@-serial@debugging=2, manual@gradle@-unchecked@debugging=2, manual@gradle@-Xlint:fallthrough@debugging=2, manual@gradle@parameters@policy=2, manual@gradle@-Xlint:varargs@debugging=2, manual@gradle@-profile@environment=2, manual@gradle@deprecation@debugging=2, manual@gradle@-Xlint:-unchecked@debugging=2, manual@gradle@static@debugging=2, official@gradle@annotationProcessorPath@environment=2, official@gradle@javaCompiler@environment=2, official@gradle@includes@environment=2, manual@gradle@-Xlint:static@debugging=3, manual@gradle@-Xlint:processing@debugging=3, supplement@gradle@Xlint@debugging=3, manual@gradle@-Xlint:classfile@debugging=3, manual@gradle@-Xlint:-cast@debugging=3, manual@gradle@-Xlint:overrides@debugging=3, manual@gradle@-Xlint:path@debugging=3, manual@gradle@-Xlint:-try@debugging=3, manual@gradle@-Xlint:-fallthrough@debugging=3, manual@gradle@-Xlint:finally@debugging=3, manual@gradle@-Xlint:empty@debugging=3, manual@gradle@-Xlint:divzero@debugging=3, official@gradle@destinationDir@environment=3, manual@gradle@-Xlint:cast@debugging=3, official@gradle@verbose@debugging=3, manual@gradle@-Xlint:-rawtypes@debugging=3, supplement@gradle@-Xmaxerrs@debugging=3, manual@gradle@-Xlint:dep-ann@debugging=3, official@gradle@modularity@environment=3, manual@gradle@-Xlint:try@debugging=3, manual@gradle@memoryMaximumSize@performance=3, manual@gradle@-options@debugging=4, manual@gradle@-XDignore.symbol.file@environment=4, manual@gradle@--add-modules@environment=4, manual@gradle@-Xlint:rawtypes@debugging=5, manual@gradle@path@debugging=5, manual@gradle@-nowarn@debugging=5, official@gradle@annotationProcessorGeneratedSourcesDirectory@environment=5, manual@gradle@-Xlint:-classfile@debugging=5, manual@gradle@-processing@debugging=6, official@gradle@excludes@environment=6, manual@gradle@executable@environment=6, supplement@gradle@--release@compatibility=7, manual@gradle@-Xlint:-serial@debugging=7, manual@gradle@-Xlint:none@debugging=7, manual@gradle@-Xlint:-path@debugging=8, manual@gradle@-Xlint:-deprecation@debugging=8, supplement@gradle@exclude@environment=9, official@gradle@warnings@debugging=10, manual@gradle@all@debugging=10, manual@gradle@none@debugging=10, official@gradle@classpath@environment=10, supplement@gradle@-Xlint@debugging=12, manual@gradle@-Xlint:-processing@debugging=12, supplement@gradle@include@environment=14, official@gradle@incremental@performance=24, official@gradle@deprecation@debugging=24, supplement@gradle@-parameters@policy=25, manual@gradle@-Xlint:-options@debugging=28, official@gradle@fork@performance=34, manual@gradle@-Werror@policy=37, official@gradle@debug@debugging=47, manual@gradle@options@debugging=54, official@gradle@release@compatibility=63, manual@gradle@-Xlint:all@debugging=63, manual@gradle@-Xlint:deprecation@debugging=86, manual@gradle@-Xlint:unchecked@debugging=99, official@gradle@source@environment=135, official@gradle@srcDirs@environment=185, official@gradle@encoding@compatibility=213, official@gradle@targetCompatibility@compatibility=1042, official@gradle@sourceCompatibility@compatibility=1153}
