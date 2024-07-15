@@ -4,8 +4,8 @@
 
 layout: default
 ---
-<p> Continuous Integration (CI) is a widely-used software development practice to reduce risks. CI builds often break, and a large amount of efforts are put into troubleshooting broken builds. Despite that compiler errors have been recognized as one of the most frequent types of build failures, little is known about the common types, fix efforts and fix patterns of compiler errors that occur in CI builds of open-source projects. To fill such a gap, we present a large-scale empirical study on 6,854,271 CI builds from 3,799 open-source Java projects hosted on GitHub. Using the  build data, we measured the frequency of broken builds caused by compiler errors, investigated the ten most common compiler error types, and reported their fix time. We manually analyzed 325 broken builds to summarize fix patterns of the ten most common compiler error types. Our findings help to characterize and understand compiler errors during CI and provide practical implications to developers, tool builders and researchers.
-  The paper about this study has been submitted to FSE 2019.</p>
+<p> Continuous Integration (CI) is a widely used software development practice to reduce risks and accelerate development cycles. CI configuration is complex, and CI builds often break, requiring significant effort to configure CI pipelines and troubleshoot broken builds. Despite compilation being an indispensable step in CI builds, little is known about the usage of compilation configurations, and the common types, fix efforts, and fix patterns of compiler errors and warnings in CI for open-source projects. To fill this gap, we present a large-scale empirical study on 6,854,271 CI builds from 3,799 open-source Java projects hosted on GitHub. Using the data, we collected available compilation configurations, and investigated their intentions and usages. We then analyzed the frequency of compiler errors and warnings, investigated the ten most common error types and warning types, and reported their fix time. We manually analyzed 500 builds to summarize fix patterns of the ten most common compiler error types and warning types. Our findings help to characterize and understand compilation configurations, compiler errors, and warnings in CI, and provide practical implications for developers, tool builders, and researchers.
+The paper about this study has been submitted to TSE.</p>
 <!--
 <h2>More Details for ESEC/FSE Rebuttal</h2>
 <li><a href="rebuttal/fix_time.html">Sensitivity Analysis for RQ3 (Reviewer 1)</a></li>
@@ -29,6 +29,13 @@ Our <a href="https://zenodo.org/records/3539803">data set</a> consists of 6,854,
   <li><a href="files/distribution.csv" download>Overall Distribution of Compiler Error Types</a></li>
   <!-- <li><a href="files/master.csv" download>Master Branches</a></li> -->
   <!-- <li><a href="files/others.csv" download>Other Branches</a></li> -->
+  <li><a href="files/production.csv" download>Production Code</a></li>
+  <li><a href="files/test.csv" download>Test Code</a></li>
+  <li><a href="files/push.csv" download>Pushes</a></li>
+  <li><a href="files/pull.csv" download>Pull Requests</a></li>
+</ul>
+<ul>
+  <li><a href="files/distribution.csv" download>Overall Distribution of Compiler Warning Types</a></li>
   <li><a href="files/production.csv" download>Production Code</a></li>
   <li><a href="files/test.csv" download>Test Code</a></li>
   <li><a href="files/push.csv" download>Pushes</a></li>
