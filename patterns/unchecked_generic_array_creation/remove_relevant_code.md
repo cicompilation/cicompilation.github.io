@@ -17,7 +17,7 @@ layout: page
 
 ---------------------
 
-*** src/test/java/stormpot/adaptors/SelfCleaningPoolTest.java***
+***src/test/java/stormpot/adaptors/SelfCleaningPoolTest.java***
 
 ```diff
 -       // a self-cleaning pool, configured to work faster than normal

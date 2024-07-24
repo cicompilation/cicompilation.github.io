@@ -8,7 +8,7 @@ layout: page
 ---------------------
 
 ```java
-compileJavawarning:[options]bootstrap class path not set in conjunction with -source 1.7
+bootstrap class path not set in conjunction with -source 1.7
 ```
 
 ### Code Change
