@@ -8,7 +8,8 @@ layout: page
 ---------------------
 
 ```java
-[WARNING] /home/travis/build/SamirTalwar/Rekord/validation/src/main/java/com/noodlesandwich/rekord/validation/RekordMatchers.java:[61,66] Varargs method could cause heap pollution from non-reifiable varargs parameter keys
+[WARNING] /home/travis/build/SamirTalwar/Rekord/validation/src/main/java/com/noodlesandwich/rekord/validation/RekordMatchers.java:[60,80] Possible heap polution from parameterized vararg type com.noodlesandwich.rekord.keys.Key<T,?>
+
 ```
 
 ### Code Change
