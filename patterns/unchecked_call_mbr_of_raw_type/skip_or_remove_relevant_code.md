@@ -8,7 +8,7 @@ layout: page
 ---------------------
 
 ```java
-[WARNING]/home/travis/build/benas/random-beans/random-beans/src/main/java/io/github/benas/randombeans/ExclusionDefinitionBuilder.java:[51,16]unchecked call to ExclusionDefinition(java.lang.string,java.lang.class<F>,java.lang.Class<T>)as a member of the rawtyio.github.benas.randombeans.ExclusionDefinitionne
+[WARNING] /home/travis/build/benas/random-beans/random-beans/src/main/java/io/github/benas/randombeans/ExclusionDefinitionBuilder.java:[51,16] unchecked call to ExclusionDefinition(java.lang.String,java.lang.Class<F>,java.lang.Class<T>) as a member of the raw type io.github.benas.randombeans.ExclusionDefinition
 
 ```
 
@@ -16,7 +16,7 @@ layout: page
 
 ---------------------
 
-***src/main/java/nl/kbresearch/europeana_newspapers/ner/alto/AltoProcessor.java***
+***random-beans/src/main/java/io/github/benas/randombeans/ExclusionDefinitionBuilder.java***
 
 ```diff
 -  public ExclusionDefinition get() {

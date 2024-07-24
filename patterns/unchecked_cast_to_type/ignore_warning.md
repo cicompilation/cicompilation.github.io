@@ -8,17 +8,18 @@ layout: page
 ---------------------
 
 ```java
-/home/travis/build/oblac/jodd/jodd-core/src/main/java/jodd/io/findfile/FindFile.java:653:warning:[unchecked]unchecked cast
-pathList0riginal =(LinkedList<File>)pathList.clone();
-required:LinkedList<File>
-found:Object
+/home/travis/build/oblac/jodd/jodd-core/src/main/java/jodd/io/findfile/FindFile.java:653: warning: [unchecked] unchecked cast
+pathListOriginal = (LinkedList<File>) pathList.clone();
+^
+required: LinkedList<File>
+found: Object
 ```
 
 ### Code Change
 
 ---------------------
 
-***vespa-http-client/src/main/java/com/yahoo/vespa/http/client/runner/CommandLineArguments.java***
+***build.gradle***
 
 ```diff
 		options.compilerArgs << "-Xlint:-options"

@@ -16,7 +16,7 @@ layout: page
 
 ---------------------
 
-***.travis.yml***
+***pom.xml***
 
 ```diff
       <groupId>com.google.guava</groupId>
