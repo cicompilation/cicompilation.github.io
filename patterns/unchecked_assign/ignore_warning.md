@@ -22,5 +22,5 @@ found:ArrayList
 ***vespa-http-client/src/main/java/com/yahoo/vespa/http/client/runner/CommandLineArguments.java***
 
 ```diff
-+        <arg>-Xlint:all,-options,-path</arg>
+-        <arg>-Xlint:all,-options,-path</arg>
 ```

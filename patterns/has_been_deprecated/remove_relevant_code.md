@@ -8,7 +8,7 @@ layout: page
 ---------------------
 
 ```java
-[WARNING]/home/travis/build/HPI-Information-systems/Metanome/backend/src/test/java/de/metanome/backend/configuration/DefaultConfigurationFactoryTest.java:[165,5]assertEquals(java.lang.Object[],java.lang.Object[])in org.junit.Assert has beendeprecated
+[WARNING] /home/travis/build/HPI-Information-Systems/Metanome/backend/src/test/java/de/metanome/backend/configuration/DefaultConfigurationFactoryTest.java:[165,5] assertEquals(java.lang.Object[],java.lang.Object[]) in org.junit.Assert has been deprecated
 
 ```
 
