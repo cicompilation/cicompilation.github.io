@@ -1,3 +1,3 @@
 description: A Large-Scale Empirical Study of Configurations, Errors, and Warnings for Compilation in Continuous Integration.
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-slate
